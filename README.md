@@ -12,8 +12,10 @@ lettre indiquant l’orientation selon la notation cardinale anglaise (N,E,W,S) 
 
 Pour contrôler une tondeuse, on peut lui envoyer une séquence simple de lettres. Les lettres possibles
 sont « D », « G » et « A ».
+
 « D » et « G » font pivoter la tondeuse de 90° à droite ou à gauche
 respectivement, sans la déplacer. 
+
 « A » signifie que l'on avance la tondeuse d’une case dans la
 direction à laquelle elle fait face, sans modifier son orientation.
 
@@ -29,6 +31,7 @@ Concevoir et écrire une API sur un serveur Node.js implémentant la spécificat
 
 ## Aide
 Les choix d’architectures sont libres.
+
 Le candidat sera jugé sur la qualité du code, le respect des bonnes pratiques modernes et sur son pragmatisme.
 
 ## Technologies attendues
