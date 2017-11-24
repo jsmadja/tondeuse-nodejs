@@ -33,7 +33,3 @@ Concevoir et écrire une API sur un serveur Node.js implémentant la spécificat
 Les choix d’architectures sont libres.
 
 Le candidat sera jugé sur la qualité du code, le respect des bonnes pratiques modernes et sur son pragmatisme.
-
-## Technologies attendues
-
-**TODO**
