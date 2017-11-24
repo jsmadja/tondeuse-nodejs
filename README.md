@@ -11,20 +11,26 @@ La position de la tondeuse est représentée par la combinaison de coordonnées 
 lettre indiquant l’orientation selon la notation cardinale anglaise (N,E,W,S) sur une pelouse donnée. La case (0,0) est située dans le coin sud-ouest de la pelouse.
 
 Pour contrôler une tondeuse, on peut lui envoyer une séquence simple de lettres. Les lettres possibles
-sont « D », « G » et « A ». « D » et « G » font pivoter la tondeuse de 90° à droite ou à gauche
-respectivement, sans la déplacer. « A » signifie que l'on avance la tondeuse d’une case dans la
+sont « D », « G » et « A ».
+« D » et « G » font pivoter la tondeuse de 90° à droite ou à gauche
+respectivement, sans la déplacer. 
+« A » signifie que l'on avance la tondeuse d’une case dans la
 direction à laquelle elle fait face, sans modifier son orientation.
 
 Il peut y avoir plusieurs tondeuses par case.
 
-Exemple :
+## Exemple
 
 Sur une pelouse 4x4, on ajoute une tondeuse aux coordonnées (0,1), orientation=N
 Après lui avoir envoyé les commandes [D,A,G,A,G], elle est maintenant aux coordonnées (1,2), orientation=W
 
-## OBJECTIF
+## Objectif
 Concevoir et écrire une API sur un serveur Node.js implémentant la spécification ci-dessus.
 
-## AIDE
+## Aide
 Les choix d’architectures sont libres.
 Le candidat sera jugé sur la qualité du code, le respect des bonnes pratiques modernes et sur son pragmatisme.
+
+## Technologies attendues
+
+**TODO**
