@@ -10,11 +10,11 @@ La position de la tondeuse est représentée par la combinaison de coordonnées 
 
 La case (0,0) est située dans le coin sud-ouest de la pelouse.
 
-Pour contrôler une tondeuse, on peut lui envoyer une séquence simple de lettres. Les lettres possibles sont « D », « G » et « A ».
+Pour contrôler une tondeuse, on peut lui envoyer une séquence simple de lettres. Les lettres possibles sont **D**, **G** et **A**.
 
-« D » et « G » font pivoter la tondeuse de 90° à droite ou à gauche respectivement, sans la déplacer. 
+**D** et **G** font pivoter la tondeuse de 90° à droite ou à gauche respectivement, sans la déplacer. 
 
-« A » signifie que l'on avance la tondeuse d’une case dans la direction à laquelle elle fait face, sans modifier son orientation.
+**A** signifie que l'on avance la tondeuse d’une case dans la direction à laquelle elle fait face, sans modifier son orientation.
 
 Il peut y avoir plusieurs tondeuses par case.
 
