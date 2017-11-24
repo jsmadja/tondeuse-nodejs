@@ -1,4 +1,4 @@
-Architecte / Développeur - Conception API Node.js
+# Architecte / Développeur - Conception API Node.js
 
 La société MowItNow a décidé de développer une API de tondeuses à gazon, destinées aux
 surfaces rectangulaires.
@@ -22,9 +22,9 @@ Exemple :
 Sur une pelouse 4x4, on ajoute une tondeuse aux coordonnées (0,1), orientation=N
 Après lui avoir envoyé les commandes [D,A,G,A,G], elle est maintenant aux coordonnées (1,2), orientation=W
 
-OBJECTIF
+## OBJECTIF
 Concevoir et écrire une API sur un serveur Node.js implémentant la spécification ci-dessus.
 
-AIDE
+## AIDE
 Les choix d’architectures sont libres.
 Le candidat sera jugé sur la qualité du code, le respect des bonnes pratiques modernes et sur son pragmatisme.
