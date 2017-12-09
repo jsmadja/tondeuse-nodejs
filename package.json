@@ -1,0 +1,39 @@
+{
+  "name": "tondeuse-nodejs",
+  "version": "1.0.0",
+  "description": "Mower API",
+  "scripts": {
+    "start": "node lib/index",
+    "dev": "nodemon lib/index.js --watch",
+    "test": "./node_modules/istanbul/lib/cli.js --include-all-sources cover ./node_modules/mocha/bin/_mocha -- test/* --timeout 10000",
+    "test:watch": "npm run test -- --watch",
+    "lint": "eslint lib test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsmadja/tondeuse-nodejs.git"
+  },
+  "author": "Julien Smadja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsmadja/tondeuse-nodejs/issues"
+  },
+  "homepage": "https://github.com/jsmadja/tondeuse-nodejs#readme",
+  "dependencies": {
+    "bluebird": "3.5.1",
+    "body-parser": "1.18.2",
+    "express": "4.16.2",
+    "swagger-jsdoc": "1.9.7",
+    "swagger-ui-express": "2.0.11"
+  },
+  "devDependencies": {
+    "eslint": "4.12.0",
+    "istanbul": "^0.4.5",
+    "mocha": "4.0.1",
+    "nodemon": "1.12.1",
+    "npm-check": "5.5.2",
+    "supertest": "3.0.0",
+    "supertest-promised": "1.0.0",
+    "wait-until": "0.0.2"
+  }
+}
