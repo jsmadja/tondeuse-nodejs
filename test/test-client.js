@@ -9,15 +9,17 @@ module.exports = {
 
     getMower: (mower) => request(app).get(`/mower/${mower.id}`),
 
-    putMowerOnLawn: (lawn, mower, x = 0, y = 0, orientation = 'N') => request(app).post(`/lawn/${lawn.id}/mowers`)
-    .send({
-        mower_id: mower.id,
-        x,
-        y,
-        orientation
-    }),
+    putMowerOnLawn: (lawn, mower, x = 0, y = 0, orientation = 'N') =>
+        request(app).post(`/lawn/${lawn.id}/mowers`)
+        .send({
+            mower_id: mower.id,
+            x,
+            y,
+            orientation
+        }),
 
-    sendMowerProgram: (mower, instructions = ['A']) => request(app).put(`/mower/${mower.id}`)
-    .send(instructions)
+    sendMowerProgram: (mower, instructions = ['A']) =>
+        request(app).put(`/mower/${mower.id}`)
+        .send(instructions)
 
 };

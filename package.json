@@ -5,8 +5,10 @@
   "scripts": {
     "start": "node lib/index",
     "dev": "nodemon lib/index.js --watch",
-    "test": "./node_modules/istanbul/lib/cli.js --include-all-sources cover ./node_modules/mocha/bin/_mocha -- test/* --timeout 10000",
-    "test:watch": "npm run test -- --watch",
+    "test": "mocha test/**/* --timeout 10000",
+    "test:coverage": "./node_modules/istanbul/lib/cli.js --include-all-sources cover ./node_modules/mocha/bin/_mocha -- test/**/* --timeout 10000",
+    "test:unit:watch": "mocha test/unit/* --watch",
+    "test:watch": "npm run test -- --watch --timeout 10000",
     "lint": "eslint lib test"
   },
   "repository": {
@@ -23,10 +25,13 @@
     "bluebird": "3.5.1",
     "body-parser": "1.18.2",
     "express": "4.16.2",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
     "swagger-jsdoc": "1.9.7",
     "swagger-ui-express": "2.0.11"
   },
   "devDependencies": {
+    "chai": "^4.1.2",
     "eslint": "4.12.0",
     "istanbul": "^0.4.5",
     "mocha": "4.0.1",
