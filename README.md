@@ -20,4 +20,14 @@ npm start
 npm test
 ```
 
-### Rapport de couverture de test
+### Documentation Swagger
+
+http://localhost:3000/api-docs
+
+| Resource | Verb | Route | Description |
+|----------|------|-------|-------------|
+| Lawn | POST | /lawn | Create a lawn |
+| Lawn | POST | /lawn/{id}/mowers | Put a mower on a lawn |
+| Mower|GET |  /mower/{id} | Get mower information |
+| Mower|PUT|/mower/{id}|Start mowing with a set of instructions|
+| Mower|POST|/mower|Create a mower|
